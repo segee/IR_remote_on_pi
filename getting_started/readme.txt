@@ -4,6 +4,8 @@ was a 5V device...probably not the best choice, but it was the cheapest digikey 
 an NPN transistor with a pull up resistor of 30K or so, so current when the output is 5V and the
 pi is clipping to 3.3V is minimal.
 
+digikey part number is 1080-IRM-8601S-P-ND, but there isn't anything special about it.
+
 The code assumes wiring pi is installed and that user level gpio is allowed
 
 each of the .c files is its own thing and there is no makefile.  compiling is of the form
